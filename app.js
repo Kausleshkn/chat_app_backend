@@ -8,7 +8,7 @@ const server = createServer(app);
 const port = process.env.PORT || 8000;
 const io = new Server(server, {
     cors: {
-        origin: ['http://localhost:3000', 'http://127.0.0.1:5500'],
+        origin: ['http://localhost:3000', 'http://127.0.0.1:5500','https://kausleshkn.github.io/chat-app/'],
         credentials: true
     }
 });
